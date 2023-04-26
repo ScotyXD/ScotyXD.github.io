@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---Head-->
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Scott Harrison</title>
+            <link rel="stylesheet" href="./Portfolio_website.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+    <a class="active" href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Github">GitHub</a>
+    <a href="#Contact">Contact</a>
+    </div>
+
+    <br>
+    <br>
+
+    <!--Background Video-->
+
+    <div id="Home">
+        <video autoplay muted loop id="Working-Video">
+            <source src="./Portfolio images/Work-Video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!---Video Text -->
+    <div class="Video_Text">
+        <h1 class="White-text">Scott Harrison Portfolio</h1>
+        <strong>
+            <p class="center">
+                <q>“This is the real secret of life --
+                    <br> to be completely engaged with what you are doing in the here and now.
+                    <br> And instead of calling it work, realize it is play.”
+                </q>
+                <br> -Alan Watts
+                <br>
+                <br> My name is Scott Harrison. Welcome to my portfolio website. On it, you will find my background and
+                experience.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p>
+        </strong>
+    </div>
+
+    <!--About section-->
+    <div class="Row" id="About">
+    <!--Left column-->
+    <div class="Column_2">
+        <div class="slideshow">
+            <img class="slide" src="./Portfolio images/Work.jpg" alt="Calming WorkSpace">
+            <img class="slide" src="./Portfolio images/HTML_CSS_and_JavaScript.jpeg" alt="Image 2">
+            <img class="slide" src="./Portfolio images/SQL_and_Database(1).jpg" alt="Image 3">
+        </div>
+    </div>
+
+        <!--Right Column-->
+        <div class="Column_1">
+            <p>
+                I am a Software Developer who loves to code! As a father of two, I enjoy time with my family and cooking
+                for them.
+                <br>
+                <br>I have achieved a Diploma in web and software development from Pitman Peterborough, i am trained and
+                experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+            </p>
+        </div>
+        <!--GitHub section-->
+        <div class="GitHub">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>You can view my coding projects on my GitHub profile here:</p>
+                <br>
+                <p class="center"><a href="https://github.com/ScotyXD/HTML-CSS-Projects" target="_blank">Scott Harrison
+                        Github</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/ScotyXD/HTML-CSS-Projects" target="_blank"><img src="./Portfolio images/GitHub.png"
+                        alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./Portfolio images/coding.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right Column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/meqdpnry" method="POST">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Pleae enter your name here">
+                    <label>Email:</label>
+                    <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message</label>
+                    <input type="text" id="Message" name="Message" placeholder="Please write your message here"></input>
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <!--Footer section-->
+        <footer>
+            <p>
+            <p class="center">Scott Harrison </p>
+            </p>
+        </footer>
+        <script src="./Website_portfolio.js"></script>
+</body>
+
+</html>
